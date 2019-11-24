@@ -31,7 +31,7 @@ class Post(models.Model):
     image1 = models.ImageField(upload_to='projects/')
     image2 = models.ImageField(upload_to='projects/', default='projects/image2.jpg')
     image3 = models.ImageField(upload_to='projects/', default='projects/image3.jpg')
-    link = models.CharField(max_length=50)
+    link = models.CharField(max_length=70)
     technologies = models.CharField(max_length=100)
     categories = models.CharField(max_length=100)
 
