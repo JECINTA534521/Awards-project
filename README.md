@@ -122,7 +122,7 @@ Please read this [comprehensive guide](https://opensource.guide/how-to-contribut
 
 
 ## Support and contact details
-Contact [James Mutahi](jecintawanjirug@gmail.com) for further help/support
+Contact [Jecinta Wanjiru](jecintawanjirug@gmail.com) for further help/support
 
 ### License
 [MIT LICENSE](LICENCE)
