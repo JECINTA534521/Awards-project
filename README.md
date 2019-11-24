@@ -111,9 +111,6 @@ python3.6 manage.py runserver
 Open [localhost:8000](http://127.0.0.1:8000/)
 
 
-## Contributing
-Please read this [comprehensive guide](https://opensource.guide/how-to-contribute/) on how to contribute. Pull requests are welcome :-)
-
 ## Bugs
 #### Known bugs
  - N/A
