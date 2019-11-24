@@ -33,7 +33,7 @@ def edit(request):
             return redirect('profile')
     else:
         new_profile = ProfileForm(instance=request.user.profile)
-    return render(request, 'edit_profile.html', locals())
+    return render(request, 'edit.html', locals())
 
 
 @login_required(login_url='/accounts/login/')
