@@ -5,7 +5,7 @@ from .models import *
 # Create your tests here.
 class ProfileTestClass(TestCase):
     def setUp(self):
-        self.profile = Profile(user='James', image='james.png')
+        self.profile = Profile(user='Jecinta', image='jecinta.png')
         self.profile.save()
 
     def tearDown(self):
