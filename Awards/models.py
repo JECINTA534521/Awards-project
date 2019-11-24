@@ -32,8 +32,8 @@ class Post(models.Model):
     image2 = models.ImageField(upload_to='projects/', default='projects/image2.jpg')
     image3 = models.ImageField(upload_to='projects/', default='projects/image3.jpg')
     link = models.CharField(max_length=50)
-    # technologies = models.CharField(max_length=100)
-    # categories = models.CharField(max_length=100)
+    technologies = models.CharField(max_length=100)
+    categories = models.CharField(max_length=100)
 
     def __str__(self):
         return self.sitename
